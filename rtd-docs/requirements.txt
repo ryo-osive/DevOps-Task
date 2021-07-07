@@ -1,0 +1,5 @@
+sphinx_panels
+sphinx_rtd_theme
+sphinx_copybutton
+recommonmark
+sphinxcontrib.images

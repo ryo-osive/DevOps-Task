@@ -1,0 +1,30 @@
+.vscode
+backend-code/node_modules
+backend-code/package-lock.json
+backend-code/.env
+
+
+# dependencies
+frontend-code/node_modules
+frontend-code/.pnp
+frontend-code/.pnp.js
+
+# testing
+frontend-code/coverage
+
+# misc
+frontend-code/.DS_Store
+frontend-code/.env.local
+frontend-code/.env.development.local
+frontend-code/.env.test.local
+frontend-code/.env.production.local
+
+frontend-code/npm-debug.log*
+frontend-code/yarn-debug.log*
+frontend-code/yarn-error.log*
+frontend-code/package-lock.json
+
+# Docs gitignores
+
+docs/build
+docs/.vscode
