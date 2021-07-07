@@ -8,3 +8,7 @@ Application Architecture
 
 .. thumbnail:: images/mern-stack.png
 
+React Code-base
+================
+
+`Github Link <https://github.com/ryo-osive/DevOps-Task/tree/master/frontend-code>`_ 
