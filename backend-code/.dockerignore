@@ -1,0 +1,8 @@
+# Docker Ignores
+/node_modules
+/build
+.git
+*.md
+.gitignore
+./package-lock.json
+./env-sample
