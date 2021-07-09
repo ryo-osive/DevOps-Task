@@ -1,0 +1,17 @@
+secret:
+  mongodb_uri:
+    username: admin
+    password: password
+    dbchart: database
+    dbport: 27017
+    dbconn: "employeebook"
+image:
+  repository: rkundani/backend
+  tag: "1.0"
+replicaCount: 1
+service:
+  type: ClusterIP
+  port: 80
+ingress:
+  enabled: true
+  host: backend.minikube.local

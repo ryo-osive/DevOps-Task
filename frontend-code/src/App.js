@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import config from "./config";
+// import config from "./config";
 import axios from "axios";
 
 //Import UI Components
