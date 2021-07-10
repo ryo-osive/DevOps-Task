@@ -1,6 +1,0 @@
-apiVersion: v2
-name: database
-appVersion: "3.6"
-description: A Helm chart for Employeebook Database Mongodb 3.6 
-version: 1.0.0
-type: application
