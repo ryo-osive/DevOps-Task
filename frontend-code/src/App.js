@@ -18,7 +18,7 @@ class App extends Component {
   async getAllEmployees() {
     this.setState({ isLoadingData: true });
     await axios
-      .get(`${process.env.REACT_APP_API_URI}/api/v1/employees`)
+      .get(`${process.env.REACT_APP_BACKEND_URI}/api/v1/employees`)
       .then((res) => {
         const response = res.data;
         this.setState({ EmployeesData: response });

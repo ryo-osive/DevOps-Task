@@ -15,3 +15,8 @@ service:
 ingress:
   enabled: true
   host: backend.minikube.local
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 80
