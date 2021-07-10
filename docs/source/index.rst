@@ -14,3 +14,5 @@ Welcome to DevOps Task's documentation!
    Task 2 <./tasks/2/index.rst>
    Task 3 <./tasks/3/index.rst>
    Task 4 <./tasks/4/index.rst>
+   Task 5 <./tasks/5/index.rst>
+   Task 6 <./tasks/6/index.rst>
