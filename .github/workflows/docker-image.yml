@@ -27,7 +27,7 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          context: ./backend-code/
-          file: ./backend-code/Dockerfile         
+          context: backend-code/
+          file: backend-code/Dockerfile         
           push: true
           tags: user/app:latest
