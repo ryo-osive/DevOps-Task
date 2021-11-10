@@ -44,7 +44,7 @@ Helm backend Charts
     
 - Create new ``backend/templates/secret.yaml`` for `MongoDB URL` used in above deployment file.
 
-    .. code-block:: yml
+    .. code-block:: 
 
         apiVersion: v1
         kind: Secret
