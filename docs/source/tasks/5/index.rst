@@ -61,7 +61,7 @@ Helm backend Charts
 
 - Now edit ``backend/values.yaml`` file for values:
 
-    ..thumbnail:: images/backend-values.png
+    .. thumbnail:: images/backend-values.png
 
 
 
