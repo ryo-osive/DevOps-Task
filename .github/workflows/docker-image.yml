@@ -20,10 +20,17 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - 
+      - name: Build and Push backend image
         uses: docker/build-push-action@v2
         with:
           context: backend-code/
           file: backend-code/Dockerfile         
           push: true
-          tags: user/app:latest
+          tags: rkundani/backend:1.0
+      - name: Build and Push frontend image
+        uses: docker/build-push-action@v2
+        with:
+          context: frontend-code/
+          file: frontend-code/Dockerfile         
+          push: true
+          tags: rkundani/frontend:1.0
