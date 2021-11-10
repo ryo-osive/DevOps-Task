@@ -10,9 +10,10 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       -
         name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v1z
 #       -
 #         name: Set up Docker Buildx
 #         uses: docker/setup-buildx-action@v1
@@ -22,6 +23,10 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      -
-        name: Build and push
-        run: chmod +x ci.sh && bash ci.sh
+      - 
+        uses: docker/build-push-action@v2
+        with:
+          context: backend-code/
+          file: backend-code/Dockerfile         
+          push: true
+          tags: user/app:latest
