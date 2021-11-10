@@ -10,9 +10,9 @@ Welcome to DevOps Task's documentation!
    :maxdepth: 1
    :caption: Tasks:
 
-   Task 1 <./tasks/1/index.rst>
-   Task 2 <./tasks/2/index.rst>
-   Task 3 <./tasks/3/index.rst>
-   Task 4 <./tasks/4/index.rst>
-   Task 5 <./tasks/5/index.rst>
-   Task 6 <./tasks/6/index.rst>
+   Sample App Creation <./tasks/1/index.rst>
+   Dockerize App <./tasks/2/index.rst>
+   Minikube Setup (Local K8s cluster) <./tasks/3/index.rst>
+   kubectl install <./tasks/4/index.rst>
+   Create and deploy helm charts <./tasks/5/index.rst>
+   Github Action for CI <./tasks/6/index.rst>
