@@ -24,4 +24,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Build and push
-        run: chmod +x ci.sh && ./ci.sh
+        run: chmod +x ci.sh && bash ci.sh
