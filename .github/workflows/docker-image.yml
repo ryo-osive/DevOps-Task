@@ -24,4 +24,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Build and push
-        run: docker build --file backend-code/Dockerfile --tag rkundani/backend backend-code/
+        run: docker build --file backend-code/Dockerfile --tag rkundani/backend ./backend-code/
