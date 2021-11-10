@@ -28,7 +28,7 @@ Helm frontend Charts
 
 - Finally the frontend chart is ready
 
-    Github-URL : `fontend-charts<https://github.com/ryo-osive/DevOps-Task/tree/master/employeebook/charts/frontend>`_
+    Github-URL : `fontend-charts <https://github.com/ryo-osive/DevOps-Task/tree/master/employeebook/charts/frontend>`_
 
 
 
@@ -57,7 +57,7 @@ Helm backend Charts
         {{- end }}
 
 
-    `backend-secret.yaml<https://github.com/ryo-osive/DevOps-Task/blob/master/employeebook/charts/backend/templates/secret.yaml>`_
+    `backend-secret.yaml <https://github.com/ryo-osive/DevOps-Task/blob/master/employeebook/charts/backend/templates/secret.yaml>`_
 
 - Now edit ``backend/values.yaml`` file for values:
 
@@ -182,7 +182,7 @@ Helm Database Charts
 
 - Final Charts are available at below link
 
-    `database-charts<https://github.com/ryo-osive/DevOps-Task/tree/master/employeebook/charts/database>`_
+    `database-charts <https://github.com/ryo-osive/DevOps-Task/tree/master/employeebook/charts/database>`_
 
 
 Deploy Charts with Ingress
